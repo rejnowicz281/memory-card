@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Stalker";
+    src: url("src/assets/font.ttf");
+}
+
+body {
+    margin: 0;
+    font-family: "Stalker";
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.Game {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("src/assets/stalker.jpg");
+    background-size: cover;
+}
+
+.Game > main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: repeat(4, 400px);
+    grid-template-rows: repeat(2, 250px);
+}
+
+.Game > header {
+    padding: 90px;
+    font-size: 1.5em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Game > footer {
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    width: 100%;
+    font-size: 60px;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 8px;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.card:hover {
+    filter: brightness(1.5);
+    scale: 1.05;
+}
+
+.card,
+.card > img {
+    border-radius: 20px;
+}
+
+.card > img {
+    width: 100%;
+    height: 100%;
+}
