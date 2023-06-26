@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Stalker";
-    src: url("src/assets/font.ttf");
+    src: url("/font.ttf");
 }
 
 body {
@@ -12,7 +12,7 @@ body {
 
 .Game {
     min-height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("src/assets/stalker.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/stalker.jpg");
     background-size: cover;
 }
 

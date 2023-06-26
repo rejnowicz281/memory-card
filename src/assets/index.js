@@ -13,7 +13,6 @@ import portrait6 from "./6.jpeg";
 import portrait7 from "./7.jpeg";
 import portrait8 from "./8.jpeg";
 import portrait9 from "./9.jpeg";
-import stalkerImg from "./stalker.jpg";
 
 export {
     portrait1,
@@ -31,5 +30,4 @@ export {
     portrait7,
     portrait8,
     portrait9,
-    stalkerImg,
 };
